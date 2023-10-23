@@ -12,7 +12,7 @@ global.foodData = require('./db')(function call(err, data, CatData) {
 
   app.use(cors())
   app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+    res.setHeader("Access-Control-Allow-Origin", "https://frontend-restro-fd.onrender.com");
     res.header(
       "Access-Control-Allow-Headers",
       "Origin, X-Requested-With, Content-Type, Accept"
